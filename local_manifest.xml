@@ -11,6 +11,8 @@
  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
  
 <!--Common-->
+ 
+<remove-project path="device/sepolicy" />
 <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
 <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <project path="hardware/mediatek" name="hardware_mediatek" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
