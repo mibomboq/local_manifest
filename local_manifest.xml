@@ -5,11 +5,11 @@
  <remote name="mibomboq" fetch="https://github.com/mibomboq" />
  <remote name="orrb7" fetch="https://github.com/orrb7" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
-
+ 
  <!--Trees-->
- <project path="device/advan/X1" name="android-device-advan-X1" remote="mibomboq" revision="pixel-erofs" clone-depth="1" />
+ <project path="device/advan/X1" name="android-device-advan-X1" remote="mibomboq" revision="pixel-erofs" clone-depth="1" />  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="orrb7" revision="master" clone-depth="1" />
  <project path="vendor/advan/X1" name="android_vendor_advan_X1" remote="orrb7" revision="main" clone-depth="1" />
- <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
+ <project path="vendor/prize/camera" name="android_vendor_PriCam" remote="orrb7" revision="cameraV2" clone-depth="1" />
  
 <!--Common-->
  
