@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<manifest> 
  <!--Remote-->
  <remote name="G100-X1" fetch="https://github.com/G100-X1" />
  <remote name="mibomboq" fetch="https://github.com/mibomboq" />
  <remote name="orrb7" fetch="https://github.com/orrb7" />
  <remote name="DooPrjkt" fetch="https://github.com/DooPrjkt" />
- <!--remote name="LineageOS" fetch="https://github.com/LineageOS" /-->
  
  <!--Trees-->
  <project path="device/advan/X1" name="android_device_advan_X1" remote="orrb7" revision="axion" clone-depth="1" /> 
@@ -14,30 +13,9 @@
  <!--project path="vendor/prize/camera" name="android_vendor_PriCam" remote="orrb7" revision="cameraV2" clone-depth="1" /-->
  
 <!--Common-->
- 
-<!--remove-project path="device/sepolicy" />
-<project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" /-->
 <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <project path="hardware/mediatek" name="hardware_mediatek" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <!--project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="G100-X1" revision="sixteen-redesign" clone-depth="1" /-->
 <project path="kernel/advan/X1" name="kernelDummy" remote="DooPrjkt" revision="main" clone-depth="1" />
- 
-<!--Remove Dolby-->
- <!--remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" /-->
-
-<!--Add_Feature-->
-<!--project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="DooPrjkt" revision="sixteen-qpr2" clone-depth="1" /-->
-
-<!--remove-project path="frameworks/base" />
-<project path="frameworks/base" name="android_frameworks_base" remote="DooPrjkt" revision="sixteen-qpr2" clone-depth="1" />
-<remove-project path="packages/apps/Settings" />
-<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="DooPrjkt" revision="sixteen-qpr2" clone-depth="1" /-->
-
-<!--Replace-->
- <!--remove-project path="build/soong" />
- <project path="build/soong" name="android_build_soong" remote="DooPrjkt" revision="sixteen-qpr2" clone-depth="1" />
-
- <remove-project path="vendor/custom" />
- <project path="vendor/custom" name="android_vendor_custom" remote="DooPrjkt" revision="sixteen-qpr2" clone-depth="1" /-->
 </manifest>
