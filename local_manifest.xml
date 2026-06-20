@@ -9,8 +9,8 @@
  <!--Trees-->
  <project path="device/advan/X1" name="android_device_advan_X1" remote="orrb7" revision="axion" clone-depth="1" /> 
  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="orrb7" revision="master" clone-depth="1" />
- <project path="vendor/advan/X1" name="android_vendor_advan_X1" remote="G100-X1" revision="lineage-23.2" clone-depth="1" />
- <!--project path="vendor/prize/camera" name="android_vendor_PriCam" remote="orrb7" revision="cameraV2" clone-depth="1" /-->
+ <project path="vendor/advan/X1" name="android_vendor_advan_X1" remote="mibomboq" revision="lineage-23.2" clone-depth="1" />
+ <project path="device/prize/camera" name="android_prize_pricamera" remote="orrb7" revision="pricamV2" clone-depth="1" />
  
 <!--Common-->
 <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
