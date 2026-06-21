@@ -8,7 +8,7 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  
  <!--Trees-->
- <project path="device/advan/X1" name="android-device-advan-X1" remote="mibomboq" revision="px" clone-depth="1" /> 
+ <project path="device/advan/X1" name="android-device-advan-X1" remote="mibomboq" revision="erofs" clone-depth="1" /> 
  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
  <project path="vendor/advan/X1" name="android_vendor_advan_X1" remote="G100-X1" revision="lineage-23.2" clone-depth="1" />
  <!--project path="device/prize/camera" name="android_prize_pricamera" remote="mibomboq" revision="pricamV2" clone-depth="1" />
