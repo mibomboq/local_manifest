@@ -21,6 +21,7 @@
 <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="G100-X1" revision="sixteen-redesign" clone-depth="1" />
 <project path="kernel/advan/X1" name="kernelDummy" remote="DooPrjkt" revision="main" clone-depth="1" />
 <!--project path="vendor/prize/camera" name="android_common_PriCam" remote="mibomboq" revision="main" clone-depth="1" /-->
+ 
 <!--Remove Dolby-->
  <!--remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" /-->
 </manifest>
