@@ -19,4 +19,5 @@
 <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <!--project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="G100-X1" revision="sixteen-redesign" clone-depth="1" /-->
 <project path="kernel/advan/X1" name="android_kernel_common_android12-5.10" remote="OSS" revision="millennium-base" clone-depth="1" />
+<project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="OSS" revision="sixteen-qpr2" clone-depth="1" />
 </manifest>
