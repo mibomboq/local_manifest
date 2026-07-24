@@ -18,7 +18,7 @@
  <project path="device/axion/common" name="android_device_axion_common" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
  
 <!--Common-->
-<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
+<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="DooPrjkt" revision="lineage-23.1" clone-depth="1" />
 <project path="hardware/mediatek" name="android_hardware_mediatek" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
 <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <!--project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="G100-X1" revision="sixteen-redesign" clone-depth="1" /-->
