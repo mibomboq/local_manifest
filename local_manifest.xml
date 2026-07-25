@@ -9,14 +9,14 @@
  <remote name="OSS" fetch="https://github.com/MillenniumOSS" />
  
  <!--Trees-->
- <project path="device/advan/X1" name="android_device_advan_X1" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" /> 
+ <project path="device/advan/X1" name="android-device-advan-X1" remote="mibomboq" revision="Infinity" clone-depth="1" /> 
  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
  <project path="vendor/advan/X1" name="android_vendor_advan_X1" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
  <project path="kernel/advan/X1" name="android_kernel_common_android12-5.10" remote="OSS" revision="millennium-base" clone-depth="1" />
  <!--project path="device/prize/camera" name="android_prize_pricamera" remote="mibomboq" revision="pricamV2" clone-depth="1" /-->
  
 <!--Common-->
-<project path="device/mediatek/sepolicy_vndr" name="android-device-advan-X1" remote="mibomboq" revision="Infinity" clone-depth="1" />
+<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="DooPrjkt" revision="lineage-23.1" clone-depth="1" />
 <project path="hardware/mediatek" name="android_hardware_mediatek" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
 <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
 <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="G100-X1" revision="sixteen-redesign" clone-depth="1" />
