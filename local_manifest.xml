@@ -6,8 +6,6 @@
  <remote name="dolby" fetch="https://github.com/Tanzanite-Prjkt" />
  <remote name="DooPrjkt" fetch="https://github.com/DooPrjkt" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
-
- https://github.com//.git
  
  <!--Trees-->
  <project path="device/advan/X1" name="android_device_advan_X1" remote="DooPrjkt" revision="seventeen" clone-depth="1" /> 
