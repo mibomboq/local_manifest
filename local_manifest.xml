@@ -4,6 +4,7 @@
  <remote name="G100-X1" fetch="https://github.com/G100-X1" />
  <remote name="mibomboq" fetch="https://github.com/mibomboq" />
  <remote name="DooPrjkt" fetch="https://github.com/DooPrjkt" />
+ <remote name="dolby" fetch="https://github.com/Tanzanite-Prjkt" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  
  <!--Trees-->
@@ -17,7 +18,7 @@
 <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
 <project path="hardware/mediatek" name="android_hardware_mediatek" remote="DooPrjkt" revision="lineage-23.2" clone-depth="1" />
 <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
-<!--project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="G100-X1" revision="sixteen-redesign" clone-depth="1" /-->
+<project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" revision="lineage-23" clone-depth="1" />
 <project path="vendor/prize/camera" name="android_common_PriCam" remote="mibomboq" revision="backup" clone-depth="1" />
  
 <!--Remove Dolby-->
