@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="G100-X1" fetch="https://github.com/G100-X1" />
+ <remote name="infinity" fetch="https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys" />
  <remote name="mibomboq" fetch="https://github.com/mibomboq" />
  <remote name="dolby" fetch="https://github.com/Tanzanite-Prjkt" />
  <remote name="DooPrjkt" fetch="https://github.com/DooPrjkt" />
@@ -21,6 +21,6 @@
 <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" revision="lineage-23" clone-depth="1" />
 <!--project path="vendor/prize/camera" name="android_common_PriCam" remote="mibomboq" revision="backup" clone-depth="1" /-->
  
-<!--Remove Dolby-->
- <!--remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" /-->
+<!--Infinity Keys-->
+ <project patch="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys" remote="infinity" revision="17" clone-depth="1" />
 </manifest>
