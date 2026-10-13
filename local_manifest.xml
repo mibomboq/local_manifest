@@ -22,5 +22,5 @@
 <!--project path="vendor/prize/camera" name="android_common_PriCam" remote="mibomboq" revision="backup" clone-depth="1" /-->
  
 <!--Infinity Keys-->
- <project patch="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys" remote="infinity" revision="17" clone-depth="1" />
+ <!--project patch="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys" remote="infinity" revision="17" clone-depth="1" /-->
 </manifest>
