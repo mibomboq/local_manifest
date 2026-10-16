@@ -17,7 +17,7 @@
 <!--Common-->
 <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="DooPrjkt" revision="lineage-24.0" clone-depth="1" />
 <project path="hardware/mediatek" name="android_hardware_mediatek" remote="DooPrjkt" revision="lineage-24.0" clone-depth="1" />
-<project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="G100-X1" revision="lineage-23.1" clone-depth="1" />
+<project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="DooPrjkt" revision="lineage-23.1" clone-depth="1" />
 <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" revision="lineage-23" clone-depth="1" />
 <!--project path="vendor/prize/camera" name="android_common_PriCam" remote="mibomboq" revision="backup" clone-depth="1" /-->
  
