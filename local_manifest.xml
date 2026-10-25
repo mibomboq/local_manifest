@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="infinity" fetch="https://github.com/ProjectInfinity-X" />
  <remote name="mibomboq" fetch="https://github.com/mibomboq" />
  <remote name="dolby" fetch="https://github.com/Tanzanite-Prjkt" />
  <remote name="DooPrjkt" fetch="https://github.com/DooPrjkt" />
@@ -20,7 +19,5 @@
 <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="DooPrjkt" revision="lineage-23.1" clone-depth="1" />
 <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" revision="lineage-23" clone-depth="1" />
 <!--project path="vendor/prize/camera" name="android_common_PriCam" remote="mibomboq" revision="backup" clone-depth="1" /-->
- 
-<!--Infinity Keys-->
- <!--project patch="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys" remote="infinity" revision="17" clone-depth="1" /-->
+
 </manifest>
